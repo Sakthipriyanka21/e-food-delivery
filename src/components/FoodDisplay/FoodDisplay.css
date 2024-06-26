@@ -1,0 +1,40 @@
+.food-display{
+    margin:30px;
+}
+
+    
+.food-display h2{
+    color:white;
+    font-size:max(2vw,24px);
+    font-weight:600;
+
+}
+.food-display-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(240,1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap: 30px;
+}
+@media(max-width:1050) {
+    .food-display-list image{
+        height :100px;
+        width: 100px;
+
+    }
+    
+}
+@media(max-width:950) {
+   .food-display-list image{
+    height:50px;
+    width:50px;
+   }
+
+}
+@media(max-width:350) {
+    .food-display-list image{
+     height:20px;
+     width:20px;
+    }
+ 
+ }
