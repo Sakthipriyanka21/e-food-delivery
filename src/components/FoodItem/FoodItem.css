@@ -37,6 +37,7 @@
 .food-item-price {
     font-weight: bold;
     color:tomato;
+    margin-bottom:50px;
 
   }
 .food-item-image-container{
