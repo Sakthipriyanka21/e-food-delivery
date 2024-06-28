@@ -1,8 +1,6 @@
 .food-display{
     margin:30px;
 }
-
-    
 .food-display h2{
     color:white;
     font-size:max(2vw,24px);
@@ -22,8 +20,8 @@
         width: 100px;
 
     }
-    
 }
+
 @media(max-width:950) {
    .food-display-list image{
     height:50px;

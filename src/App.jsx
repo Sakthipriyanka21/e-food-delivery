@@ -7,6 +7,7 @@ import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Footer from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginPopup from "./components/LoginPopup/LoginPopup";
+import ThankYou from  "./pages/ThankYou/ThankYou";
 
 const App = () => {
   const [showLogin,setShowLogin] = useState(false)
@@ -20,6 +21,8 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
+          <Route path="/thankyou" element={<ThankYou/>} />
+          
         </Routes>
       </div>
       <Footer />

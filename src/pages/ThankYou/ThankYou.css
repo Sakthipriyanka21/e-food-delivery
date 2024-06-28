@@ -1,0 +1,28 @@
+.thank {
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    padding: 20px;
+  }
+  .payment{
+    color:green;
+  }
+  
+  .scroll {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: scrolling 30s linear ease;
+    color:orange;
+  }
+  
+  @keyframes scrolling {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
